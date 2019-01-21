@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Start */
+/* TEST */
+/* Base styles for simple browsers. */
+* {
+  font-size: 5vw;
+}
+
+section {
+  padding: 10px;
+}
+
+@media only screen and (min-width: 320px) {
+  /* Old phones */
+}
+
+@media only screen and (min-width: 480px) {
+  /* Android, iPhone, etc. */
+}
+
+@media only screen and (min-width: 768px) {
+  /* Tablets — portrait. */
+  * {
+    font-size: 1.8vw;
+  }
+  section {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Landscape tablets, notebooks, desktop. */
+}
+
+@media only screen and (min-width: 1440px) {
+  /* Hires desktops, TVs. */
+}
+
+/* CSS End */
